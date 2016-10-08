@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <meta name="HandheldFriendly" content="true" />
+        <link rel="shortcut icon" href="MHallLogo.png">
+         <link rel="icon" type="image/png" href="MHallLogo32.png">
+        <link rel="apple-touch-icon-precomposed" href="MHallLogo152.png" />
+        <meta charset='utf-8'/>
+        <meta name="description" content="I am a developer currently learning the ropes and creating apps in a small village near Banbury in Oxfordshire." />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script type="text/javascript" src="movement.js"></script>
+        <script type="text/javascript" src="codeplayer.js"></script>
+        <link rel="image_src" href="MathewHallLogo.png" type="image/jpeg" data-width="575" data-height="141"  />
+     
+        <title>MHall.co.uk</title>
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75864387-1', 'auto');
+        ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body>
+        <div class="nav">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="header">
+            
+            <div id="spacer">
+              <h2 id="name">Mathew Hall</h2>
+            </div>
+        </div>
+        <br>
+        <div id="codeplayer">
+            <div id="codeplayerheader">
+            
+                <div id="codeplayerlogo">
+                    <img id="codeplayermlogo" src="MHallLogo.png"/>
+                    <div id="codeplayerlogotext">CodePlayer</div>
+                </div>
+                <div id="codeplayerbuttoncontainer">
+                    
+                    <div class="codeplayertogglebutton active" id="html">HTML</div>
+                    <div class="codeplayertogglebutton" id="css">CSS</div>
+                    <div class="codeplayertogglebutton" id="javascript">JavaScript</div>
+                    <div class="codeplayertogglebutton active" id="output">Output</div>
+                
+                </div>
+                
+            </div>
+            <div id="codeplayerbodycontainer">
+                <div id="clearfloats"></div>
+                <textarea id="htmlPanel" class="panel"><div id="egg">
+<p id="hello">Hello World!</p>
+                    </div></textarea>
+                <textarea id="cssPanel" class="panel hidden">p {
+color : white;
+font-size:120%
+}
+
+#egg {
+width: auto;
+height: 200px;
+background-color: #00bfff;
+margin-top: -19
+}</textarea>
+                <textarea id="javascriptPanel" class="panel hidden">document.getElementById("hello").innerHTML = "Greetings!";</textarea>
+                <iframe id="outputPanel" class="panel" sandbox="allow-forms allow-same-origin allow-scripts">
+                
+                </iframe>
+            
+            </div>
+        </div>
+        <div id="screenmessage">
+        <div id="content">
+            <h2 class="pageTitle">CodePlayer Requires a large screen to run</h2>
+        </div>
+            </div>
+
+
+    </body>
+</html>

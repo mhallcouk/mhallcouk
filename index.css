@@ -1,0 +1,278 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Roboto:300|Open+Sans+Condensed:300);
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu {
+    margin: 0;
+    padding:0;
+}
+
+.nav {
+    background-color: #696969;
+    color: white;
+    height: 48px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav ul li:hover {
+    color: #696969;
+    background-color: white;
+    text-decoration: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right 8px;
+    font-family: "Roboto";
+    font-weight: bold;
+    
+}
+
+
+#name {
+    padding:15px;
+    width: 320px;
+    max-width 100%;
+    opacity:0.0;
+    text-align: center;
+    border-radius: 0.4em;
+    margin: auto;
+    color: white;
+    font-size: 3.5em;
+    font-family: 'Indie Flower', cursive;
+    background-color: #696969;
+    font-weight: normal;
+}
+
+#spacer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#header {
+    background-color: #696969;
+    background-image: url("green1.jpeg");
+    background-size: 100%;
+    height: 15%;
+    width: 100%;
+    position:sticky;
+}
+
+
+#containermain {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+
+}
+
+p {
+    font-size: 1.5em;
+    font-size-adjust: auto;
+    display:block;
+    padding: 10px;
+    font-family: "Roboto";
+/*    font-family: 'Open Sans Condensed', sans-serif;*/
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    padding: 10px;
+}
+
+#gameCanvas {
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    padding: 10px;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#content p {
+    font-size: 1.5em;
+    font-size-adjust: auto;
+    display:block;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#androidpreview {
+    padding: 5%;
+    margin: auto;
+}
+
+
+.restrictor {
+    float:left;
+    width:80%;
+    margin:0% 10% 0% 10%;
+}
+
+#twitterDiv {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+width:100px;
+}
+
+#twitterStream {
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+width:600px;
+    max-width: 100%;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+/*CodePlayer specific appearance, use IDs.
+There is a 507px width break point where function should stop.*/
+
+#codeplayer {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+
+#codeplayerheader {
+    width:100%;
+    background-color: #EEEEEE;
+    padding: 5px;
+    height: 40px;
+    margin-top: -20px;
+    margin-bottom:0;
+    padding-bottom: 0;
+
+}
+
+#codeplayerbuttoncontainer {
+    width: 220px !important;
+    margin: 0 auto;
+    min-width: 210px !important;
+/*    display: inline;*/
+    white-space: nowrap;
+    height: 20px !important;
+}
+
+#codeplayerlogo {
+    float: left;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 120%;
+    width:146px;
+    height: 40px;
+    min-width: 146px;
+    padding:0 !important;
+}
+
+#codeplayerlogotext {
+    margin-top:5px !important;
+    float:left;
+    position: relative;
+}
+
+.codeplayertogglebutton {
+    float: left;
+    border: 1px solid grey;
+    padding: 6px;
+    border-right: none;
+    font-size: 90%;
+}
+
+
+#html {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#output {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid grey;
+}
+
+#codeplayermlogo {
+    width: 40px !important;
+    height: 40px !important;
+    float:left;
+    margin-top:0;
+    padding:5;
+}
+
+.active {
+    background-color:aquamarine;
+    color: black;
+}
+
+.highlightedbutton {
+    color:white;
+    background-color: #696969;
+}
+
+#clearfloats {
+    clear: both;
+    margin: 0;
+    padding:0;
+}
+
+textarea {
+    resize: none;
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+}
+
+.panel {
+    float: left;
+    border: 1px solid black;
+    margin-top: 0;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+#screenmessage {
+    visibility: hidden;
+    position: absolute;
+}
