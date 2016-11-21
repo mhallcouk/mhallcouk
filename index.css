@@ -8,10 +8,11 @@ body {
 #menu {
     margin: 0;
     padding:0;
+    background-color: #000000;
 }
 
 .nav {
-    background-color: #696969;
+    background-color: #000000;
     color: white;
     height: 48px;
     margin-left: 0;
@@ -45,7 +46,7 @@ body {
     color: white;
     font-size: 3.5em;
     font-family: 'Indie Flower', cursive;
-    background-color: #696969;
+    background-color: #000000;
     font-weight: normal;
 }
 
