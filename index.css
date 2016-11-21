@@ -160,6 +160,10 @@ h2 {
     font-weight: bold;
 }
 
+#linkedinlink {
+    text-align: center;
+}
+
 /*CodePlayer specific appearance, use IDs.
 There is a 507px width break point where function should stop.*/
 
