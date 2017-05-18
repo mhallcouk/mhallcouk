@@ -5,6 +5,15 @@ body {
     margin: 0px;
 }
 
+#githubimage1 {
+  margin-top: 10%;
+}
+
+.githublinkshowcase {
+  width: 25%;
+  margin-left: 20px;
+}
+
 #menu {
     margin: 0;
     padding:0;
